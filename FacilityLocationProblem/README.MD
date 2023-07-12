@@ -5,10 +5,10 @@
 The instances are stored as plain text in the following format:
 ```
 n_facilities n_customers
-one line for each facility i: fixed_cost(i) capacity(i)
-one line for each customer j: demand(j)
-one line for each facility i:
-  one line for each customer j:
+for each facility i: fixed_cost(i) capacity(i)
+for each customer j: demand(j)
+for each facility i:
+  for each customer j:
     per_unit_transportation_cost(i, j)
 ```
 
