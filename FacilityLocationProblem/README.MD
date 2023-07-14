@@ -17,7 +17,7 @@ Recall that the profit of each customer $v\in V_2$ was set equal to $p_v = 4 \ti
 Instance file names are `instance_F<A>_C<B>__MU<C>__<D>.txt` where
 - `<A>` is the number of facilities;
 - `<B>` is the number of customers;
-- `<C>` is the value of $\mu$ used to generate the instance;
+- `<C>` is the value of $\mu$ used to generate the instance, multiplied by 100;
 - `<D>` is the index of the instance.
 
 ## Results
