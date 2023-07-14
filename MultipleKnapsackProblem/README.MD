@@ -16,6 +16,6 @@ Each instance name is formatted as `instance_mkp_N<A>_K<B>_H<C>_A<D>__<E>.txt` w
 
 - `<A>`: number of items;
 - `<B>`: number of knapsacks;
-- `<C>`: value of H for generating the instance, multiplied by 100;
+- `<C>`: value of $H$ for generating the instance, multiplied by 100;
 - `<D>`: value of $\alpha$ for generating the instance, multiplied by 100;
 - `<E>`: instance index.
