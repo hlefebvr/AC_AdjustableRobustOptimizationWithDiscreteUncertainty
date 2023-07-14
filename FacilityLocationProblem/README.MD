@@ -12,6 +12,14 @@ for each facility i:
     per_unit_transportation_cost(i, j)
 ```
 
+Recall that the profit of each customer $v\in V_2$ was set equal to $p_v = 4 \times \textrm{median}\{ t_{uv} : u \in V_1 \}$.
+
+Instance file names are ``instance_F<A>_C<B>__MU<C>__<D>.txt where
+- <A> is the number of facilities;
+- <B> is the number of customers;
+- <C> is the value of $\mu$ used to generate the instance;
+- <D> is the index of the instance.
+
 ## Results
 
 The results come into three CSV files.
