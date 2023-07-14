@@ -36,7 +36,7 @@ These can be found in `CCG.csv` with the following columns:
 - "inner_iter_1": inner iteration counter (ignore)
 - "inner_iter_2" inner iteration counter (ignore)
 
-### Results obtained by B6C
+### Results obtained by B&C
 
 These can be found in `B&C.csv` with the following columns:
 - "instance": instance name
@@ -50,7 +50,7 @@ These can be found in `B&C.csv` with the following columns:
 - "abs_gap": absolute optimility gap
 - "n_generated_cuts": number of generated cuts
 
-### Results obtained by B6C for increasing values of R
+### Results obtained by B&C for increasing values of R
 
 These can be found in `B&C_partial_disruption.csv` with the same columns as in `B&C.csv` with an extra last column for R. 
 
