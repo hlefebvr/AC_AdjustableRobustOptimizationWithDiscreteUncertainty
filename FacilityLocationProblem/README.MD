@@ -12,7 +12,7 @@ for each facility i:
     per_unit_transportation_cost(i, j)
 ```
 
-Recall that the profit of each customer $v\in V_2$ was set equal to $p_v = 4 \times \textrm{median}\{ t_{uv} : u \in V_1 \}$.
+Recall that the profit of each customer $v\in V_2$ was set equal to $p_v = 4 \times \textrm{median} ( t_{uv} : u \in V_1 )$.
 
 Instance file names are `instance_F<A>_C<B>__MU<C>__<D>.txt` where
 - `<A>` is the number of facilities;
@@ -52,5 +52,5 @@ These can be found in `B&C.csv` with the following columns:
 
 ### Results obtained by B&C for increasing values of R
 
-These can be found in `B&C_partial_disruption.csv` with the same columns as in `B&C.csv` with an extra last column for R. 
+These can be found in `B&C_partial_disruption.csv` with the same columns as in `B&C.csv` with an extra last column for $R$. 
 
